@@ -17,9 +17,9 @@
   <project name="device/samsung/crespo" revision="1f6fcbdedb2696c072a8f3f04c24796917d81e92"/>
   <project name="device/samsung/crespo4g" revision="637e75176132ce98d379a2325491e3d5dbef5cda"/>
   <project name="platform/bionic" path="bionic" revision="57aadbb096a118dd33f9f16c67bd18dbb6b92c4a"/>
-  <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" revision="d3271024770ddcc2fb87dd22f8280764545ab05a"/>
-  <project name="platform/bootable/diskinstaller" path="bootable/diskinstaller" revision="b354f6abda00461eae4cb0215faa8b5a7268e275"/>
-  <project name="platform/bootable/recovery" path="bootable/recovery" revision="8d58c957036835db148acc4e506633a016dc6c7e"/>
+  <project name="platform/bootable/bootloader/legacy" path="bootable_bootloader_legacy" revision="d3271024770ddcc2fb87dd22f8280764545ab05a"/>
+  <project name="platform/bootable/diskinstaller" path="bootable_diskinstaller" revision="b354f6abda00461eae4cb0215faa8b5a7268e275"/>
+  <project name="platform/bootable/recovery" path="bootable_recovery" revision="8d58c957036835db148acc4e506633a016dc6c7e"/>
   <project name="platform/build" path="build" revision="b399f5e81e2a644776f163e499df5bd0a38fe272">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
