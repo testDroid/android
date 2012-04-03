@@ -83,7 +83,7 @@
   <project path="external/javassist" name="platform/external/javassist" />
   <project path="external/jdiff" name="platform/external/jdiff" />
   <project path="external/jhead" name="platform/external/jhead" />
-  <project path="external/jpeg" name="platform/external/jpeg" />
+  <project path="external/jpeg" name="Cyanogenmod/platform_external_jpeg" remote="github" revision="ics" />
   <project path="external/jsilver" name="platform/external/jsilver" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
@@ -240,6 +240,7 @@
   <!-- Device Files -->
   <project path="device/htc/ace" name="aospX/platform_device_htc_ace" remote="github" revision="ics-devel"/>
   <project path="device/htc/common" name="aospX/platform_device_htc_common" remote="github" revision="ics-devel"/>
+  <project path="device/htc/glacier" name="Zipsnet/android_device_htc_glacier" remote="github" revision="master"/>
   <project path="device/htc/msm7x30-common" name="Zipsnet/android_device_htc_msm7x30-common" remote="github" revision="master"/>
 
   <!-- Hardware Files -->
